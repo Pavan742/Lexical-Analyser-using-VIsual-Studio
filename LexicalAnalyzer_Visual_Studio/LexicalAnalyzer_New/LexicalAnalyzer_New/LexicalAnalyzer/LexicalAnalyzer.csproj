@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C6844A61-0156-4E11-A309-5BB786D73AAF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LexicalAnalyzer</RootNamespace>
+    <AssemblyName>LexicalAnalyzer</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CloudToolkitN6">
+      <HintPath>..\..\..\.Net Softs\CloudToolkitN6.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnalyzerBackWork.cs" />
+    <Compile Include="frmLexicalAnalyzer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLexicalAnalyzer.Designer.cs">
+      <DependentUpon>frmLexicalAnalyzer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmLexicalAnalyzer.resx">
+      <DependentUpon>frmLexicalAnalyzer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Binoculars.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Binoculars1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ktimer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kuser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kword.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kwrite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kxconfig.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kxconfig1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\List manager.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading36.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\midnight pharmacy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\midnight pharmacy1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\midnight pharmacy2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\midnight pharmacy3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\midnight pharmacy4.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\midnightlogo.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\midnightlogo1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\midnightpharmacy_feature_hero.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\midnightpharmacy_feature_hero1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\midnightpharmacy_feature_hero2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mycomputer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mydocuments.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mymac.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\package_editorspackage_editors.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\package_edutainment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\package_games_arcade.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poolbird.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poolhat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\solutions.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Syringe.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Syringe1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wizard1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wizard11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wizard12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wizard13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\videos_4_background.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

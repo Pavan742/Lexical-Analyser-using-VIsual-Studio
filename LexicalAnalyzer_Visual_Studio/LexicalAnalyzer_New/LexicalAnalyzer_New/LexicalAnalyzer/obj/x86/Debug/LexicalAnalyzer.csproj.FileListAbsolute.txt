@@ -1,0 +1,9 @@
+D:\Osama_Stuff\University Work\Compiler\LexicalAnalyzer_New\LexicalAnalyzer_New\LexicalAnalyzer_New\LexicalAnalyzer\obj\x86\Debug\LexicalAnalyzer.exe
+D:\Osama_Stuff\University Work\Compiler\LexicalAnalyzer_New\LexicalAnalyzer_New\LexicalAnalyzer_New\LexicalAnalyzer\obj\x86\Debug\LexicalAnalyzer.pdb
+D:\Osama_Stuff\University Work\Compiler\LexicalAnalyzer_New\LexicalAnalyzer_New\LexicalAnalyzer_New\LexicalAnalyzer\bin\Debug\LexicalAnalyzer.exe
+D:\Osama_Stuff\University Work\Compiler\LexicalAnalyzer_New\LexicalAnalyzer_New\LexicalAnalyzer_New\LexicalAnalyzer\bin\Debug\LexicalAnalyzer.pdb
+D:\Osama_Stuff\University Work\Compiler\LexicalAnalyzer_New\LexicalAnalyzer_New\LexicalAnalyzer_New\LexicalAnalyzer\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Osama_Stuff\University Work\Compiler\LexicalAnalyzer_New\LexicalAnalyzer_New\LexicalAnalyzer_New\LexicalAnalyzer\obj\x86\Debug\LexicalAnalyzer.frmLexicalAnalyzer.resources
+D:\Osama_Stuff\University Work\Compiler\LexicalAnalyzer_New\LexicalAnalyzer_New\LexicalAnalyzer_New\LexicalAnalyzer\obj\x86\Debug\LexicalAnalyzer.Properties.Resources.resources
+D:\Osama_Stuff\University Work\Compiler\LexicalAnalyzer_New\LexicalAnalyzer_New\LexicalAnalyzer_New\LexicalAnalyzer\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Osama_Stuff\University Work\Compiler\LexicalAnalyzer_New\LexicalAnalyzer_New\LexicalAnalyzer_New\LexicalAnalyzer\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
